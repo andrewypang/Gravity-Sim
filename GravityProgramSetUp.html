@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.10/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.10/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.10/addons/p5.sound.min.js"></script>
+    <script src="GravityProgram.js"></script>
+
+    <style>
+      body
+      {
+        padding: 5px;
+        margin: 0px;
+
+      }
+
+      #programContainer
+      {
+        display: inline-block;
+        border: 2px solid black;
+        width: 100%;
+
+      }
+      #canvasContainer, #controlsContainer
+      {
+        float:left;
+
+      }
+      #canvasContainer
+      {
+        margin: 0px;
+        /*border: 1px solid red;*/
+        width: 60%;
+      }
+
+      #controlsContainer
+      {
+        border: 2px solid black;
+        margin: 5px;
+        padding: 2px;
+        width: 30%;
+        margin-left: 1%;
+
+      }
+
+      #customParticleContainer,#ParticleOptionContainer,#SettingsContainer,#GameplaySettingsContainer
+      {        
+        border: 2px solid black;
+        margin: 5px;
+        padding: 2px;
+      }
+
+
+    </style>
+
+    <title>Gravity</title>
+
+  </head>
+  <body>
+
+    <div id="programContainer">
+      
+
+      <div id="canvasContainer"> </div>
+
+      <div id="controlsContainer"> 
+
+        <div id="SettingsContainer"></div>
+        <div id="GameplaySettingsContainer"></div>
+        <div id="customParticleContainer"></div>
+        <div id="ParticleOptionContainer"></div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+    
+  </body>
+</html>
