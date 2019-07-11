@@ -15,6 +15,7 @@ Here is the full orbit path:
 ![2 Body in Perfect Orbit Path](img/2bodyproblem-2-screenshot.png)
 
 One feature of this simulator is Collision.
+
 Here is a preset system is collision off:
 ![Multi System With No Collision](img/multi-system-with-path-history-and-NO-collision.png)
 
